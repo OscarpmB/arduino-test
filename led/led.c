@@ -1,6 +1,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
-// #include <avr/iom328p.h> // finds all imports so vscode doesnot complain
+#include <avr/iom328p.h> // finds all imports so vscode doesnot complain
 
 void stupid_blink(double s){
     // Set Data Direction register D pin 6 to write
